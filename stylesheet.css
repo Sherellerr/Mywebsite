@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+:root
+ {
+    background-color:#FFF8DC;
+ 
+
+ }
+
+      
+ .navigation {
+    margin: 25px;
+    background: black;
+    padding: 16px;
+    width: 150px;
+    height: 350px;
+  }
+
+
+ 
+      .btn {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        width: 150px;
+        height: 70px;
+        color:white;
+        background: black;
+        border-radius: 8px;
+        grid-template-rows: repeat(auto);
+        gap: 10px;
+        font-family: 'Righteous';
+      }
+
+      .btn:hover {
+        cursor: pointer;
+        box-shadow: black	;
+        transition: transform 150ms;
+        transform: scale(1.5);
+      }
+
+      .MiddleSection{
+        position: fixed;
+        top:70px ;
+        right: 720px;
+      
+
+      }
+
+      #left{
+        align-items: flex-start;
+      }
+
+      #right{
+        position: fixed;
+        top: 70px;
+        right: 15px;
+        width: 700px;
+        height: 500px;
+        background-color: black;
+      }
+
+      h1{
+        color: white;
+        padding: 10px;
+      }
+
+      p {
+        color: white;
+        padding: 30px;
+      }
+
+      a {
+        color: yellow;
+      }
+
+      a:hover {
+        color: red;
+      }
